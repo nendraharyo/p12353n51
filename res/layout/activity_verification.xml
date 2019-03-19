@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <LinearLayout n1:gravity="center" n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:background="@color/blue_ugm" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0">
+                <ImageView n1:id="@id/htb" n1:layout_width="@dimen/nav_drawer_width" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/width_logo_med" n1:src="@drawable/htoolbar" />
+            </LinearLayout>
+            <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0" />
+        </LinearLayout>
+        <ImageView n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="-15.0dip" n1:src="@drawable/ftoolbar" n1:layout_alignParentBottom="true" />
+        <LinearLayout n1:orientation="vertical" n1:id="@id/content" n1:background="@drawable/grey_rounded_content" n1:layout_width="fill_parent" n1:layout_height="@dimen/margin_date" n1:layout_marginLeft="@dimen/startend_distance" n1:layout_marginTop="@dimen/margin_content" n1:layout_marginRight="@dimen/startend_distance">
+            <TextView n1:textSize="@dimen/text_title" n1:textColor="@color/black" n1:layout_gravity="center" n1:layout_width="@dimen/et_width" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/et_height" n1:layout_marginBottom="@dimen/margin" n1:text="Verifikasi" />
+            <EditText n1:layout_gravity="center" n1:id="@id/v_code" n1:layout_width="@dimen/et_width" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/margin" n1:hint="Kode Verifikasi" n1:inputType="text" />
+            <Button n1:textColor="@color/white" n1:layout_gravity="center" n1:id="@id/btn_submit" n1:background="@drawable/button_bg_rounded_ugm" n1:layout_width="@dimen/width_field" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/startend_distance" n1:layout_marginRight="10.0dip" n1:layout_marginBottom="@dimen/fixed_height_icon" n1:text="@string/manual" n1:textAllCaps="false" />
+        </LinearLayout>
+        <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/space_field" n1:layout_below="@id/content" n1:layout_centerHorizontal="true">
+            <TextView n1:textStyle="bold" n1:id="@id/minuteExp" n1:layout_width="wrap_content" n1:layout_height="fill_parent" n1:text="-" />
+            <TextView n1:textStyle="bold|italic" n1:textColor="@color/blue_ugm" n1:id="@id/resend_verification_code" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/space_field" n1:text="Permintaan Ulang Kode Verifikasi" />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

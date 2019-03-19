@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@drawable/dialog_bg" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <TextView n1:textSize="@dimen/text_title" n1:textStyle="bold" n1:textColor="@color/white" n1:gravity="center" n1:background="@color/blue_ugm" n1:layout_width="fill_parent" n1:layout_height="?actionBarSize" n1:text="@string/mhs" />
+    <LinearLayout n1:orientation="vertical" n1:padding="10.0dip" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <TextView n1:textSize="@dimen/text_small_mid" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/mkl" />
+        <TextView n1:textSize="15.0dip" n1:textStyle="bold" n1:id="@id/tv_mkl" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="Algoritma" />
+        <View n1:background="@color/black" n1:layout_width="fill_parent" n1:layout_height="0.30000007dip" n1:layout_marginTop="@dimen/space" n1:layout_marginRight="@dimen/height_field" n1:layout_marginBottom="@dimen/margin" n1:layout_below="@id/title" />
+        <TextView n1:textSize="@dimen/text_small_mid" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/name" />
+        <TextView n1:textSize="15.0dip" n1:textStyle="bold" n1:id="@id/tv_name" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="-" />
+        <View n1:background="@color/black" n1:layout_width="fill_parent" n1:layout_height="0.30000007dip" n1:layout_marginTop="@dimen/space" n1:layout_marginRight="@dimen/height_field" n1:layout_marginBottom="@dimen/margin" n1:layout_below="@id/title" />
+        <TextView n1:textSize="@dimen/text_small_mid" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="@string/niu" />
+        <TextView n1:textSize="15.0dip" n1:textStyle="bold" n1:id="@id/tv_nim" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:text="-" />
+        <View n1:background="@color/black" n1:layout_width="fill_parent" n1:layout_height="0.30000007dip" n1:layout_marginTop="@dimen/space" n1:layout_marginRight="@dimen/height_field" n1:layout_marginBottom="@dimen/margin" n1:layout_below="@id/title" />
+    </LinearLayout>
+    <Button n1:textColor="@color/blue_ugm" n1:layout_gravity="center" n1:id="@id/btn_submit" n1:background="@drawable/button_bg_rounded_corners" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="10.0dip" n1:layout_marginBottom="@dimen/fixed_height_icon" n1:text="@string/submit" n1:textAllCaps="false" />
+</LinearLayout>

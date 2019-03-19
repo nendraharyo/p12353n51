@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout n1:id="@id/drawer_layout" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <LinearLayout n1:orientation="vertical" n1:id="@id/container_toolbar" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <include n1:id="@id/toolbar" layout="@layout/toolbar" />
+        </LinearLayout>
+        <FrameLayout n1:id="@id/container_body" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0" />
+    </LinearLayout>
+    <fragment n1:name="id.ac.ugm.presensi.presensimahasiswa.Home.response.FragmentDrawer" n1:layout_gravity="start" n1:id="@id/fragment_navigation_drawer" n1:layout_width="@dimen/nav_drawer_width" n1:layout_height="fill_parent" n2:layout="@layout/fragment_navigation_drawer" xmlns:n2="http://schemas.android.com/apk/res-auto" />
+</android.support.v4.widget.DrawerLayout>

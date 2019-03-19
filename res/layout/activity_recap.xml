@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:background="@color/colorPrimary" n1:layout_width="fill_parent" n1:layout_height="@dimen/actionbar">
+        <LinearLayout n1:id="@id/linearlayoutback" n1:layout_width="wrap_content" n1:layout_height="fill_parent">
+            <ImageView n1:layout_gravity="center_vertical" n1:layout_width="20.0dip" n1:layout_height="20.0dip" n1:layout_marginLeft="10.0dip" n1:layout_marginRight="10.0dip" n1:src="@drawable/ic_back" />
+        </LinearLayout>
+        <TextView n1:textSize="15.0sp" n1:textColor="@color/white" n1:layout_gravity="center_vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/precap" />
+    </LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <TextView n1:padding="5.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="-" />
+        <TextView n1:padding="5.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="-" />/></LinearLayout>
+    <LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+        <LinearLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:id="@id/mhs_present" n1:padding="5.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="0" />
+            <TextView n1:padding="5.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/attend" />
+        </LinearLayout>
+        <LinearLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:id="@id/mhs_sick" n1:padding="5.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="0" />
+            <TextView n1:padding="5.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/sick" />/></LinearLayout>
+        <LinearLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <TextView n1:id="@id/mhs_alpha" n1:padding="5.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="0" />
+            <TextView n1:padding="5.0dip" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/alpha" />
+        </LinearLayout>/></LinearLayout>
+    <LinearLayout n1:orientation="horizontal" n1:id="@id/chart" n1:layout_width="fill_parent" n1:layout_height="0.0dip" n1:layout_weight="1.0" />
+    <LinearLayout n1:gravity="center" n1:orientation="horizontal" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/et_height">
+        <Button n1:id="@id/new_series" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/detail" />
+    </LinearLayout>
+</LinearLayout>

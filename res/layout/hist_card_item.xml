@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.CardView n1:id="@id/hist_card" n1:layout_width="fill_parent" n1:layout_height="@dimen/height_card" n1:layout_marginLeft="@dimen/padding_et" n1:layout_marginTop="@dimen/padding_et" n1:layout_marginRight="@dimen/padding_et" n2:cardBackgroundColor="@color/white" n2:cardElevation="@dimen/space" n2:cardUseCompatPadding="true" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <RelativeLayout n1:id="@id/top_layout" n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+            <ImageView n1:id="@id/vendor_logo" n1:layout_width="@dimen/width_map_fixed" n1:layout_height="@dimen/width_map_fixed" n1:layout_margin="@dimen/leftright_distance" />
+            <TextView n1:textSize="@dimen/text_small" n1:textStyle="bold" n1:textColor="@color/black" n1:id="@id/product_name" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/leftright_distance" n1:text="-" n1:layout_toRightOf="@id/vendor_logo" n1:textAllCaps="true" />
+            <TextView n1:textSize="@dimen/text_small" n1:textStyle="bold" n1:textColor="@color/black" n1:id="@id/tv_point" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_margin="@dimen/leftright_distance" n1:text="-" n1:layout_alignParentRight="true" n1:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

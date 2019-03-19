@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:background="@color/bg_ugm" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:id="@id/img" n1:layout_width="@dimen/width_logo" n1:layout_height="@dimen/height_dashboard" n1:layout_marginBottom="@dimen/width_area_code" n1:src="@drawable/header" n1:layout_alignParentTop="true" />
+    <TextView n1:textSize="@dimen/text_small_mid" n1:textColor="@color/black" n1:id="@id/datetime" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/margin_date" n1:layout_centerHorizontal="true" />
+    <android.support.v7.widget.RecyclerView n1:id="@id/notif_presensi_view" n1:background="@color/backCardView" n1:paddingBottom="9.0dip" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_below="@id/img" />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout n1:orientation="vertical" n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <LinearLayout n1:background="@color/colorPrimary" n1:layout_width="fill_parent" n1:layout_height="@dimen/actionbar">
+        <LinearLayout n1:id="@id/linearlayoutback" n1:layout_width="wrap_content" n1:layout_height="fill_parent">
+            <ImageView n1:layout_gravity="center_vertical" n1:layout_width="20.0dip" n1:layout_height="20.0dip" n1:layout_marginLeft="10.0dip" n1:layout_marginRight="10.0dip" n1:src="@drawable/ic_back" />
+        </LinearLayout>
+        <TextView n1:textSize="15.0sp" n1:textColor="@color/white" n1:layout_gravity="center_vertical" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:text="@string/my_account" />
+    </LinearLayout>
+    <LinearLayout n1:gravity="center_horizontal" n1:orientation="vertical" n1:background="@color/bg_ugm" n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:layout_marginTop="@dimen/margin_profile" />
+    <ImageView n1:id="@id/profile_photo" n1:background="@drawable/my_acc" n1:layout_width="@dimen/width_profile_icon" n1:layout_height="@dimen/width_profile_icon" n1:layout_marginTop="@dimen/margin_fixed_logo" n1:layout_centerHorizontal="true" />
+    <LinearLayout n1:orientation="vertical" n1:id="@id/form_profile" n1:background="@drawable/dialog_bg" n1:padding="@dimen/startend_distance" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/startend_distance" n1:layout_marginTop="@dimen/space_field" n1:layout_marginRight="@dimen/startend_distance" n1:layout_below="@id/profile_photo" n1:layout_centerHorizontal="true">
+        <android.support.design.widget.TextInputLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/space">
+            <EditText n1:enabled="false" n1:textSize="@dimen/text_small_mid" n1:textColor="@color/black" n1:id="@id/input_phone" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/space" n1:text="-" n1:hint="Matakuliah" n1:inputType="textMultiLine" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/space_field">
+            <EditText n1:enabled="false" n1:textSize="@dimen/text_small_mid" n1:textColor="@color/black" n1:textColorHint="@color/black" n1:textColorLink="@color/black" n1:id="@id/input_complete_name" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/space" n1:text="-" n1:hint="@string/dosen" n1:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/space">
+            <EditText n1:enabled="false" n1:textSize="@dimen/text_small_mid" n1:textColor="@color/black" n1:id="@id/total_presensi" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/space" n1:text="34" n1:hint="Total mahasiswa hadir" n1:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/space">
+            <EditText n1:enabled="false" n1:textSize="@dimen/text_small_mid" n1:textColor="@color/black" n1:id="@id/total_absen" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginRight="@dimen/space" n1:text="3" n1:hint="Total mahasiswa tidak hadir" n1:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+    <Button n1:enabled="false" n1:textColor="@color/blue_ugm" n1:layout_gravity="center" n1:id="@id/taplogout" n1:background="@drawable/button_bg_rounded_logout" n1:layout_width="@dimen/width_logo_toolbar" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/startend_distance" n1:layout_marginRight="10.0dip" n1:text="@string/tap_sign_out" n1:layout_below="@id/form_profile" n1:layout_centerHorizontal="true" n1:textAllCaps="false" />
+    <Button n1:textColor="@color/red" n1:layout_gravity="center_horizontal" n1:id="@id/btn_logout" n1:background="@drawable/button_bg_rounded_logout" n1:layout_width="@dimen/width_logo_toolbar" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/space_field" n1:layout_marginRight="10.0dip" n1:text="@string/sign_out" n1:layout_below="@id/taplogout" n1:layout_centerHorizontal="true" n1:textAllCaps="false" />
+</RelativeLayout>

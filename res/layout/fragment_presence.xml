@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="fill_parent"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <RelativeLayout n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+        <ImageView n1:layout_width="fill_parent" n1:layout_height="fill_parent" n1:src="@drawable/mockup" n1:scaleType="fitXY" />
+        <Button n1:enabled="false" n1:textColor="@color/blue_ugm" n1:layout_gravity="center" n1:id="@id/tap" n1:background="@drawable/button_bg_rounded_logout" n1:paddingLeft="@dimen/space_field" n1:paddingRight="@dimen/space_field" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/margin_class" n1:text="@string/tap_class_out" n1:layout_below="@id/form_profile" n1:layout_centerHorizontal="true" n1:textAllCaps="false" />
+        <Button n1:textColor="@color/red" n1:layout_gravity="center_horizontal" n1:id="@id/btn_finish" n1:background="@drawable/button_bg_rounded_logout" n1:paddingLeft="@dimen/space_field" n1:paddingRight="@dimen/space_field" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/space_field" n1:layout_marginRight="10.0dip" n1:text="@string/class_out" n1:layout_below="@id/tap" n1:layout_centerHorizontal="true" n1:textAllCaps="false" />
+    </RelativeLayout>
+</LinearLayout>

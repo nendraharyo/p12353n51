@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item n1:icon="@drawable/ic_ballot" n1:id="@id/nav_home" n1:title="@string/home"
+      xmlns:n1="http://schemas.android.com/apk/res/android" />
+    <item n2:icon="@drawable/ic_ballot" n2:id="@id/nav_presensi" n2:title="@string/presensi"
+      xmlns:n2="http://schemas.android.com/apk/res/android" />
+    <item n3:icon="@drawable/ic_ballot" n3:id="@id/nav_acc" n3:title="@string/my_account"
+      xmlns:n3="http://schemas.android.com/apk/res/android" />
+</menu>

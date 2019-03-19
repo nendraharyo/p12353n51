@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar n1:id="@id/toolbar" n1:background="@color/white" n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:minHeight="?actionBarSize" n2:popupTheme="@style/ThemeOverlay.AppCompat.Light" n2:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" n2:titleTextAppearance="@style/Toolbar.Title"
+  xmlns:n1="http://schemas.android.com/apk/res/android" xmlns:n2="http://schemas.android.com/apk/res-auto">
+    <LinearLayout n1:layout_width="fill_parent" n1:layout_height="fill_parent">
+        <ImageView n1:id="@id/imageViewplaces" n1:layout_width="@dimen/width_logo_login" n1:layout_height="wrap_content" n1:src="@drawable/ltoolbar" />
+    </LinearLayout>
+</android.support.v7.widget.Toolbar>

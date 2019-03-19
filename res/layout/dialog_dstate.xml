@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:layout_gravity="center" n1:orientation="vertical" n1:background="@drawable/circle" n1:layout_width="@dimen/width_small_text" n1:layout_height="@dimen/width_small_text"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <ImageView n1:layout_gravity="center" n1:background="@drawable/ic_failed" n1:layout_width="@dimen/height_logo_login" n1:layout_height="@dimen/height_logo_login" n1:layout_marginTop="@dimen/startend_distance" />
+    <TextView n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/space" n1:text="@string/fail" />
+    <TextView n1:layout_gravity="center" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginBottom="@dimen/startend_distance" n1:text="@string/desc_fails" />
+</LinearLayout>

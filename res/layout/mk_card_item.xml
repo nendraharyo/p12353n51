@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout n1:orientation="vertical" n1:layout_width="fill_parent" n1:layout_height="wrap_content"
+  xmlns:n1="http://schemas.android.com/apk/res/android">
+    <android.support.v7.widget.CardView n1:layout_width="fill_parent" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/padding_et" n1:layout_marginTop="@dimen/padding_et" n1:layout_marginRight="@dimen/padding_et" n2:cardBackgroundColor="@color/white" n2:cardElevation="@dimen/space" n2:cardUseCompatPadding="true" xmlns:n2="http://schemas.android.com/apk/res-auto">
+        <RelativeLayout n1:id="@id/top_layout" n1:padding="@dimen/space_field" n1:layout_width="fill_parent" n1:layout_height="wrap_content">
+            <ImageView n1:id="@id/is_success" n1:background="@drawable/ic_ballot" n1:visibility="gone" n1:layout_width="21.0dip" n1:layout_height="21.0dip" n1:layout_marginLeft="-33.0dip" n1:layout_marginTop="53.0dip" n1:layout_toRightOf="@id/vendor_logo" />
+            <LinearLayout n1:orientation="vertical" n1:id="@id/history_label" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/space_field" n1:layout_toRightOf="@id/vendor_logo">
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <TextView n1:textSize="@dimen/text_small_mid" n1:textStyle="normal" n1:textColor="@color/black" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/radius" n1:text="Nama Dosen\u0009\u0009 : " />
+                    <TextView n1:textSize="@dimen/text_small_mid" n1:textStyle="normal" n1:textColor="@color/black" n1:id="@id/nm_dosen" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/space_field" n1:layout_marginTop="@dimen/radius" n1:text=" - " />
+                </LinearLayout>
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <TextView n1:textSize="@dimen/text_small_mid" n1:textStyle="normal" n1:textColor="@color/black" n1:id="@id/txt_success" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/radius" n1:text="Kode Matkul\u0009\u0009\u0009 : " />
+                    <TextView n1:textSize="@dimen/text_small_mid" n1:textStyle="normal" n1:textColor="@color/black" n1:id="@id/mk_kode" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/space_field" n1:layout_marginTop="@dimen/radius" n1:text="MK 123" />
+                </LinearLayout>
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <TextView n1:textSize="@dimen/text_small_mid" n1:textStyle="normal" n1:textColor="@color/black" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/radius" n1:text="Nama Matkul\u0009\u0009 : " />
+                    <TextView n1:textSize="@dimen/text_small_mid" n1:textStyle="normal" n1:textColor="@color/black" n1:id="@id/mhs_name" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/space_field" n1:layout_marginTop="@dimen/radius" n1:text="Sistem Terdistribusi" />
+                </LinearLayout>
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <TextView n1:textSize="@dimen/text_small_mid" n1:textStyle="normal" n1:textColor="@color/black" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/radius" n1:text="Ruang\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009 : " />
+                    <TextView n1:textSize="@dimen/text_small_mid" n1:textStyle="normal" n1:textColor="@color/black" n1:id="@id/mhs_ruang" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/space_field" n1:layout_marginTop="@dimen/radius" n1:text="2" />
+                </LinearLayout>
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <TextView n1:textSize="@dimen/text_small_mid" n1:textStyle="normal" n1:textColor="@color/black" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/radius" n1:text="Kelas\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009\u0009 : " />
+                    <TextView n1:textSize="@dimen/text_small_mid" n1:textStyle="normal" n1:textColor="@color/black" n1:id="@id/mhs_class" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/space_field" n1:layout_marginTop="@dimen/radius" n1:text="2" />
+                </LinearLayout>
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <TextView n1:textSize="@dimen/text_small_mid" n1:textStyle="normal" n1:textColor="@color/black" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/radius" n1:text="Pertemuan Ke\u0009 : " />
+                    <TextView n1:textSize="@dimen/text_small_mid" n1:textStyle="normal" n1:textColor="@color/black" n1:id="@id/index" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/space_field" n1:layout_marginTop="@dimen/radius" n1:text="2" />
+                </LinearLayout>
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <TextView n1:textSize="@dimen/text_small_mid" n1:textStyle="normal" n1:textColor="@color/black" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/radius" n1:text="Jumlah SKS\u0009\u0009\u0009 : " />
+                    <TextView n1:textSize="@dimen/text_small_mid" n1:textStyle="normal" n1:textColor="@color/black" n1:id="@id/mhs_nim" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/space_field" n1:layout_marginTop="@dimen/radius" n1:text="2" />
+                </LinearLayout>
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <TextView n1:textSize="@dimen/text_small_mid" n1:textStyle="normal" n1:textColor="@color/black" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/radius" n1:text="Waktu Mulai\u0009\u0009\u0009 : " />
+                    <TextView n1:textSize="@dimen/text_small_mid" n1:textStyle="normal" n1:textColor="@color/black" n1:id="@id/mk_start" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/space_field" n1:layout_marginTop="@dimen/radius" n1:text="13:00" />
+                </LinearLayout>
+                <LinearLayout n1:orientation="horizontal" n1:layout_width="wrap_content" n1:layout_height="wrap_content">
+                    <TextView n1:textSize="@dimen/text_small_mid" n1:textStyle="normal" n1:textColor="@color/black" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginTop="@dimen/radius" n1:text="Waktu Selesai\u0009 : " />
+                    <TextView n1:textSize="@dimen/text_small_mid" n1:textStyle="normal" n1:textColor="@color/black" n1:id="@id/mk_stop" n1:layout_width="wrap_content" n1:layout_height="wrap_content" n1:layout_marginLeft="@dimen/space_field" n1:layout_marginTop="@dimen/radius" n1:layout_marginBottom="@dimen/radius" n1:text="15:00" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView n1:textSize="@dimen/text_title" n1:textColor="@color/black" n1:gravity="center" n1:id="@id/txt_not_detect" n1:visibility="gone" n1:layout_width="@dimen/et_width" n1:layout_height="fill_parent" n1:layout_marginRight="@dimen/dots_height" n1:text="@string/not_detected" n1:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>
